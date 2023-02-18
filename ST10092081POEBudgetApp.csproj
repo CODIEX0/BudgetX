@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="home icon.PNG" />
+    <None Remove="icons8-accounting-48.png" />
+    <None Remove="icons8-accounting-96.png" />
+    <None Remove="icons8-budget-96.png" />
+    <None Remove="icons8-car-96 %281%29.png" />
+    <None Remove="icons8-car-rental-96.png" />
+    <None Remove="icons8-menu-96.png" />
+    <None Remove="icons8-person-at-home-96.png" />
+    <None Remove="icons8-rent-96.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resource\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icons8-menu-96.png" />
+    <Resource Include="Images\icons8-accounting-96.png" />
+    <Resource Include="Images\Man.png" />
+    <Resource Include="Images\icons8-building-with-rooftop-terrace-96.png" />
+    <Resource Include="Images\icons8-car-96 %281%29.png" />
+    <Resource Include="Images\icons8-person-at-home-96.png" />
+    <Resource Include="Images\icons8-rent-96.png" />
+  </ItemGroup>
+
+</Project>
